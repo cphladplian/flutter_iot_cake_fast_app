@@ -16,13 +16,13 @@ dependencies:
   url_launcher: ^6.3.2
   map_launcher: ^4.4.3
   carousel_slider: ^5.1.2
-  icons_launcher: ^3.0.3
   cupertino_icons: ^1.0.8
-
+  dots_indicator: ^4.0.1
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  icons_launcher: ^3.0.3
   flutter_lints: ^6.0.0
 
 flutter:
