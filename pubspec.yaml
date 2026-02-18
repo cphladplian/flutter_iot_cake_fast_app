@@ -18,7 +18,7 @@ dependencies:
   carousel_slider: ^5.1.2
   cupertino_icons: ^1.0.8
   dots_indicator: ^4.0.1
-  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -30,3 +30,11 @@ flutter:
 
   assets:
     - assets/images/
+
+icons_launcher:
+  image_path: "assets/icon/cake.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
