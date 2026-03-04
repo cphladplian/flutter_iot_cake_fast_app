@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iot_cake_fast_app/models/cake_shop.dart';
-
+import 'cake_shop_detail_ui.dart';
 class CakeShopListUi extends StatefulWidget {
   const CakeShopListUi({super.key});
 
@@ -173,7 +173,11 @@ class _CakeShopListUiState extends State<CakeShopListUi> {
                 },
                 itemBuilder: (context, index) {
                   return ListTile(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => CakeShopDetailUi(cakeShopDetail: cakeShop[index],),
+                          ));
+                    },
                     title: Text(cakeShop[index].name!,
                         style: TextStyle(
                           fontSize: 20,

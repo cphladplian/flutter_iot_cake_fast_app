@@ -11,18 +11,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^8.0.1
-  font_awesome_flutter: ^10.12.0
-  url_launcher: ^6.3.2
-  map_launcher: ^4.4.3
-  carousel_slider: ^5.1.2
   cupertino_icons: ^1.0.8
-  dots_indicator: ^4.0.1
+  flutter_map: ^8.2.2 # ใช้สำหรับแสดงแผนที่
+  font_awesome_flutter: ^10.12.0  # ใช้งานไอคอนจากเว็บ FontAwesome.com
+  google_fonts: ^8.0.1 # ใช้งานฟอนต์จาก fonts.google.com
+  carousel_slider: ^5.1.2  # ใช้สำหรับสร้าง Slider  
+  latlong2: ^0.9.1 # ใช้สำหรับจัดการพิกัดบนแผนที่
+  url_launcher: ^6.3.2 # ใช้สำหรับเปิดลิงก์ภายนอก เช่น เปิดแผนที่ในแอป เปิดเบราว์เซอร์ หรือโทรศัพท์
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  icons_launcher: ^3.0.3
+  icons_launcher: ^3.0.3 #ใช้สำหรับสร้างไอคอนในแอป
   flutter_lints: ^6.0.0
 
 flutter:
